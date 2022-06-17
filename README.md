@@ -15,4 +15,4 @@ Run the following command to start the bot
 ```
 python main.py
 ```
-Remember to change ```BOT_TOKEN``` to your bot token and ```DISCORD_CHANNEL``` to your channel that you want this bot spawn into.
+Remember to change ```BOT_TOKEN``` to your bot token and ```DISCORD_CHANNEL``` to the channel you want this bot spawn into.
