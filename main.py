@@ -4,16 +4,11 @@ import random
 from keep_alive import keep_alive
 keep_alive()
 TOKEN = os.environ['BOT_TOKEN']
-GUILD_ID_A = os.environ['DISCORD_GUILD_A']
-GUILD_ID_B = os.environ['DISCORD_GUILD_B']
-
-random.seed(5)
 
 client = discord.Client()
-
-counter = 0
-
+random.seed(5)
 limit = random.randint(1, 60)
+counter = 0
 
 list_msg = []
 @client.event
