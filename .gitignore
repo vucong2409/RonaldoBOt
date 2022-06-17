@@ -3,3 +3,4 @@ venv
 poetry.lock
 pyproject.toml
 replit.nix
+__pycache__
